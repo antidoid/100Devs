@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    background-color: lightslategray;
+    margin: 0;
+}
+
+header,
+footer {
+    height: 100px;
+}
+
+.container1 section {
+    float: left;
+    width: 33.33%;
+    height: 200px;
+    border: 1px solid black;
+    border-bottom: 0;
+}
+
+.container2 {
+    clear: both;
+}
+
+.container2 section {
+    float: left;
+    width: 50%;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.container section {
+    border-right: 0;
+}
+
+footer {
+    clear: both;
+}
+

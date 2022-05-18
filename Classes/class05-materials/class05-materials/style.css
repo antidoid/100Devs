@@ -1,0 +1,21 @@
+* {
+    background: lightslategray;
+    box-sizing: border-box;
+}
+
+
+header,
+footer {
+    height: 100px;
+}
+
+section {
+    height: 300px;
+    width: 33.3333%;
+    border: 1px solid black;
+    float: left;
+}
+
+footer {
+    clear: both;
+}
