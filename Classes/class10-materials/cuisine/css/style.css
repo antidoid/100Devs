@@ -1,0 +1,89 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  list-style: none;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+input {
+  border: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+main {
+  background: url(https://chrisreidr.github.io/cuisine_mithun_ray/images/cuisine_image1.jpg);
+  background-size: cover;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header li, header a {
+  float: left;
+  padding-right: 15px;
+}
+
+header {
+  width: 70%;
+  margin: 0 40em;
+}
+
+main div {
+  width: 50%;
+  margin-left: 6em;
+}
+
+h1 {
+  clear: both;
+  padding-top: 2em;
+  width: 50%;
+  font-size: 4em;
+}
+
+main ul {
+  padding-top: 1em;
+  margin: 0;
+}
+
+form {
+  width: 70%;
+  border: 1px solid black;
+  height: 2em;
+  margin-bottom: 1em;
+  padding-left: 1em;
+}
+
+form a {
+  margin-left: 4em;
+}
+
+div i {
+  margin-right: 1em;
+  padding-bottom: 1em;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

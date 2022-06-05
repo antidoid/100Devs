@@ -21,38 +21,21 @@
 /* BASE STYLES
 /*******************************************/
 
+body {
+
+}
+
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header * {
-  float: left;
-  list-style: none;
-  margin-right: 10px;
+header {
+
 }
 
-header h2 {
-  width: 50%;
-  text-align: center;
+footer {
+
 }
-
-section {
-  width: 60%;
-  margin: 0 auto;
-}
-
-section section {
-  float: left;
-  width: 50%;
-}
-
-section section ul li {
-  list-style: none;
-  float: left;
-  margin-right: 10px;
-}
-
-
 
 /******************************************
 /* ADDITIONAL STYLES
